@@ -6,7 +6,7 @@
 
     import { auth, signInWithGoogle } from '../../firebase/firebase.utils';
 
-    class SignIn extends React.Component{
+    class SignInComponent extends React.Component{
         constructor(props){
             super(props);
 
@@ -62,4 +62,4 @@
         }
     };
 
-    export default SignIn;
+    export default SignInComponent;
