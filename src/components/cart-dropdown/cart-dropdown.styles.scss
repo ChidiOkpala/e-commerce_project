@@ -15,7 +15,12 @@
         height:240px;
         display:flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow-y: auto;
+    }
+
+    .no-cart-item{
+        text-align: center;
+        margin-top:20px;
     }
 
     button{
