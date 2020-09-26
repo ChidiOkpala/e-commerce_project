@@ -42,7 +42,7 @@ const Header = ({ currentUser, hidden }) => (
                     </div>
                 )
             }
-            <CartIcon/>
+            <CartIcon className="option"/>
         </div>
         {
             hidden ? null : (<CartDropdown/>)
